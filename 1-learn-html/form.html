@@ -1,0 +1,93 @@
+
+
+<h1>HTML Form</h1>
+<form action="https://mms-it.com" method="post" enctype="multipart/form-data"></form>
+<fieldset>
+    <legend>
+        Register Form</legend>
+        <label for="your_name">Your Name:</label>
+        <input type="text" id="your_name" name="name" placeholder="Enter Your name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="example@gmail.com"><br><br>
+
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" required placeholder="Enter Your password"><br><br>
+        <div>
+            <label for="ph">Phone:</label>
+            <input type="phone" id="ph" placeholder="Enter Your Phone">
+        </div><br>
+
+        <label for="Date">Date:</label>
+        <input type="date" id="Date" max="2003-01-01"><br><br>
+
+        <label for="Time">Time</label>
+        <input type="time" id="Time"><br><br>
+
+        <div>
+            <label for="range">Walking Hour</label>
+            <input type="range" id="range" max="8" step="2" name="work">
+
+        </div><br>
+
+        <input type="hidden"  name="id" value="5">
+
+        <div class="">
+            <label for="">Gender</label>
+        </div>
+        <div class="">
+         <input type="radio" id="male" name="gender" value="name">
+        <label for="male">Male</label>
+        </div>
+        <div class="">
+            <input type="radio" id="female" name="gender" value="female">
+             <label for="female">Female</label>
+        </div>
+
+        <div>
+            <label for="sal">Salary</label>
+            <input type="number" id="sal"  min="200000"  max="250000" name="price"><br><br>
+        </div>
+        <div class="">
+            <label for="">Your skill</label>
+            
+            <div>
+                <input type="checkbox" name="skill" value="html" id="html">
+                <label for="html">HTMl</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="skill" value="css" id="css">
+                <label for="css">CSS</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="skill" value="js" id="js">
+                <label for="js">JS</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="skill" value="php" id="php">
+                <label for="php">PHP</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="skill" value="phy" id="phy">
+                <label for="phy">Python</label>
+            </div>
+        </div> <hr><hr>
+           
+
+            <label for="nation">Select Your nation</label>
+            <select name="nation" id="nation">
+                <option value="mm">Myanmar</option>
+                <option value="th">Thailand</option>
+                <option value="sg">Singapore</option>
+                <option value="kr">Korea</option>
+            </select><hr><hr>
+            <label for="Address">Address</label>
+            <textarea name="Address" id="Address" cols="35" rows="4"></textarea><br><br><hr>
+           
+        <button>Register</button>
+        <input type="submit">
+    </fieldset>

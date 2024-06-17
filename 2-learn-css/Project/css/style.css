@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Glegoo:wght@400;700&family=Lobster&family=Poppins:ital,wght@0,400;0,700;1,300;1,400;1,500;1,600;1,700&family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
+
+:root{
+
+    --spacer-sm:calc(var(--spacer)/2);
+    --spacer:20px;
+
+    --rounded-sm:calc(var(--rounded)/2);
+    --rounded :10px;
+    
+    --base-font:'Glegoo', serif;
+    --heading-font:'Montserrat',
+        sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--base-font);
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--base-font);
+}
+
+.m{
+    margin: var(--spacer);
+}
+
+.mb{
+    margin-bottom: var(--spacer);
+}
+
+body{
+    padding: var(--spacer);
+}
+
+
+header{
+    border:3px solid black ;
+    border-radius: 5px;
+    padding: var(--spacer);
+    margin-bottom: var(--spacer);
+}
+
+.page-title{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+.nav-link{
+    border: 1px solid black;
+    color: black;
+    display: inline-block;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px var(--spacer);
+    border-radius: 5px;
+}
+
+.active{
+    background-color: black;
+    color: white;
+}
+
+header .nav-link.active{
+    background-color: black;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: var(--spacer);
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a{
+    color: white;
+}
+

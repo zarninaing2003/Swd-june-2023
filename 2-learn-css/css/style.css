@@ -1,0 +1,18 @@
+.par {
+    border: 1px solid red;
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+#link{
+    border: 1px solid rosybrown;
+    background-color: rgb(97, 84, 84);
+    color: white;
+    text-align: center;
+    padding:50px;
+    text-decoration: none;
+
+    
+}

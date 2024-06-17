@@ -1,0 +1,132 @@
+
+body{
+    height: 3000px;
+}
+
+.box{
+    border: 1px solid black;
+    width: 700px;
+    height: 500px;
+    margin: 50px;
+    position: fixed;
+}
+
+.img{
+    width: 100px;
+    border: 2px solid black;
+    /* static relative absolute fixed sticky */
+    /* top right bottom left */
+    /* position: relative;
+    top: 30px;
+    left: 100px; */
+}
+
+/* .img.one{ */
+    /* position: relative;
+      top: 50px;
+      left: 50px;
+    z-index: 3;
+         */
+         /* position: fixed;
+         top:0;
+         right: 0;
+} */
+
+/* .img.two{
+    filter: contrast(200%); */
+    /* position: relative;
+    top: 100px;
+    z-index: 2; */
+/* } */
+
+/* .img.three{
+    filter: grayscale(100%); */
+    /* position: relative;
+    top: 150px;
+    left: -50px;
+    z-index: 1; */
+
+/* } */
+
+.title::before{
+    content: "AAA";
+}
+
+.title::after{
+    content: "ZZZ";
+}
+
+.message-box{
+    /* border: 3px solid black; */
+    background: gray;
+    color: white;
+    box-sizing: border-box;
+    width: 300px;
+    padding: 10px 20px;
+    position: relative;
+    margin-bottom:50px ;
+}
+
+.message-box::before{
+    /* content: " ";
+    width: 20px;
+    height: 20px;
+    background: red; */
+    content: '';
+    display: inline-block;
+    position: absolute;
+    border: 10px solid gray;
+    border-color: gray transparent transparent gray;
+    top: 100%;
+    left: 0;
+}
+
+/* .x{
+    margin-top: 50px;
+    display: inline-block;
+    border:20px solid pink;
+    border-color: red transparent transparent red;
+
+} */
+
+.arrow{
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 0px;
+    display: block;
+    width: 80px;
+    text-align: center;
+    color: white;
+    background-color: gray;
+    position: relative;
+    margin: 50px ;
+}
+
+.arrow::before{
+    content: "";
+    border: 25px solid gray;
+    border-left-color:transparent;
+    position: absolute;
+    border-right-color: pink;
+    border-right-width: 0;
+    left: -25px;
+    top: 0;
+    /* border-color:red green blue transparent ; */
+
+
+}
+
+.arrow::after{
+        content: "";
+        /* border: 25px solid pink;
+        border-color: red green blue palegoldenrod; */
+        border: 25px solid transparent;
+        border-left-color: gray;
+        border-right-color: gray;
+        border-right-width:0 ;
+        position: absolute;
+        left: 100%;
+        top: 0;
+}
+
+
